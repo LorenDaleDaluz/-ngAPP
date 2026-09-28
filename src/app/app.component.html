@@ -1,0 +1,19 @@
+<ion-app>
+  <ion-menu contentId = "main-content">
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Menu</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content class="ion-padding">
+      <ion-menu-toggle autoHide="false">
+      <ion-list>
+        <ion-item routerLink="/home">Home</ion-item>
+        <ion-item routerLink="/profile">Profile</ion-item>
+        <ion-item routerLink="/about">About</ion-item>
+      </ion-list>
+    </ion-menu-toggle>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id = "main-content"></ion-router-outlet>
+</ion-app>
